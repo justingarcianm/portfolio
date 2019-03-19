@@ -1,10 +1,17 @@
-import React from 'react';
-import '../App.css';
+import React from 'react'
+import '../App.css'
+import Nav from './Nav'
+import Header from './Header'
+import Projects from './Projects'
+import Contact from './Contact'
 
 function App() {
   return (
     <main>
-      <h1>Hello</h1>
+      <Nav />
+      <Header />
+      <Projects />
+      <Contact />
     </main>
   )
 }
