@@ -7,5 +7,18 @@
 .navbar-custom {
   position: fixed;
   left: 95%;
-  top: 35%;
+  top: 40%;
+}
+.navbar-custom ul li {
+  padding-bottom: 15px;
+}
+
+.navbar-custom i {
+  border-radius: 100%;
+  transition: 500ms ease;
+  color: black;
+}
+
+.navbar-custom i:hover {
+  background-color: black;
 }

@@ -5,10 +5,21 @@ function Nav() {
 	return (
 		<div className="navbar-custom">
 			<ul>
-				<li><a href="#home">o</a></li>
-				<li><a href="#projects">o</a></li>
-				<li><a href="#contact">o</a></li>
-
+				<li>
+					<a href="#home">
+						<i class="material-icons">panorama_fish_eye</i>
+					</a>
+				</li>
+				<li>
+					<a href="#projects">
+						<i class="material-icons">panorama_fish_eye</i>
+					</a>
+				</li>
+				<li>
+					<a href="#contact">
+						<i class="material-icons">panorama_fish_eye</i>
+					</a>
+				</li>
 			</ul>
 		</div>
 	)
