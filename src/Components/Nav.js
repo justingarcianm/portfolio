@@ -3,7 +3,7 @@ import React from 'react';
 
 function Nav() {
 	return (
-		<div className="navbar-custom">
+		<section className="navbar-custom">
 			<ul>
 				<li>
 					<a href="#home">
@@ -21,7 +21,7 @@ function Nav() {
 					</a>
 				</li>
 			</ul>
-		</div>
+		</section>
 	)
 }
 export default Nav;
