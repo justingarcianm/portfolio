@@ -3,8 +3,13 @@ import React from 'react';
 
 function Nav() {
 	return (
-		<div>
-			<h1>Nav</h1>
+		<div className="navbar-custom">
+			<ul>
+				<li><a href="#home">o</a></li>
+				<li><a href="#projects">o</a></li>
+				<li><a href="#contact">o</a></li>
+
+			</ul>
 		</div>
 	)
 }

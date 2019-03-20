@@ -3,3 +3,9 @@
   margin: 0;
   padding: 0;
 }
+
+.navbar-custom {
+  position: fixed;
+  left: 95%;
+  top: 35%;
+}
