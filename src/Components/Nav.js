@@ -3,9 +3,9 @@ import React from 'react';
 
 function Nav() {
 	return (
-		<main>
+		<div>
 			<h1>Nav</h1>
-		</main>
+		</div>
 	)
 }
 export default Nav;

@@ -3,9 +3,9 @@ import React from 'react';
 
 function Header() {
 	return (
-		<main>
+		<div>
 			<h1>Header</h1>
-		</main>
+		</div>
 	)
 }
 export default Header;
