@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 .navbar-custom {
   position: fixed;
   left: 95%;
@@ -24,9 +23,12 @@
   background-color: black;
 }
 
+header, #projects, #contact {
+  height: 100vh;
+}
+
 header {
   background-color: #CBD0D8;
-  height: 100vh;
   padding-top: 40vh;
 }
 header .accent {
@@ -62,6 +64,15 @@ header .toggle-text {
   margin-top: 50px;
 }
 
+#projects {
+padding-top: 10vh;
+}
+
+#projects h2{
+text-transform: uppercase;
+letter-spacing: 0.6em;
+}
+
 .btn {
   background-color: #D3AC2B;
   transition: 500ms ease;
@@ -73,7 +84,6 @@ header .toggle-text {
 
 #contact {
   background-color: #D3AC2B;
-  height: 100vh;
   padding-top: 25vh;
   color: #F4F3EA;
 }
