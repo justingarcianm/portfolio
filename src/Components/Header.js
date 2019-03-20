@@ -3,11 +3,14 @@ import React from 'react';
 
 function Header() {
 
-	function togglehiddenText() {
+	const togglehiddenText = () => {
+		// define down arrow and hidden text
 		const showArrow = document.querySelector(".show-arrow")
 		const hiddenText = document.querySelector(".hidden-text")
+		// toggle classes to move arrow and text
 		showArrow.classList.toggle("toggle-arrow")
 		hiddenText.classList.toggle("toggle-text")
+		// toggles opacity of text between 0 and 1 depending if the toggle-text is active
 		if (hiddenText.classList.contains("toggle-text")) {
 			hiddenText.style.opacity = "1"
 		} else {
