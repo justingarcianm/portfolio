@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 .navbar-custom {
   position: fixed;
   left: 95%;
@@ -21,4 +22,46 @@
 
 .navbar-custom i:hover {
   background-color: black;
+}
+
+header {
+  background-color: #CBD0D8;
+  height: 100vh;
+  padding-top: 40vh;
+}
+header .accent {
+  color: #D3AC2B;
+}
+
+
+.show-arrow i{
+  padding: 10px;
+  font-size: 3.5em;
+  cursor: pointer;
+}
+
+.show-arrow {
+  position: absolute;
+  top: 50;
+  left: 48%;
+  transform: translate(-50, -52%);
+  z-index: 2;
+  transition: 1s ease;
+}
+.toggle-arrow {
+  margin-top: 100px;
+  transform: rotate(180deg) !important;
+  color: #D3AC2B;
+}
+
+.hidden-text {
+  opacity: 0;
+  transition: 1s ease;
+}
+.toggle-text {
+  margin-top: 50px;
+}
+
+#contact {
+  background-color: #D3AC2B;
 }

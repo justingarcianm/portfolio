@@ -7,17 +7,17 @@ function Nav() {
 			<ul>
 				<li>
 					<a href="#home">
-						<i class="material-icons">panorama_fish_eye</i>
+						<i className="material-icons">panorama_fish_eye</i>
 					</a>
 				</li>
 				<li>
 					<a href="#projects">
-						<i class="material-icons">panorama_fish_eye</i>
+						<i className="material-icons">panorama_fish_eye</i>
 					</a>
 				</li>
 				<li>
 					<a href="#contact">
-						<i class="material-icons">panorama_fish_eye</i>
+						<i className="material-icons">panorama_fish_eye</i>
 					</a>
 				</li>
 			</ul>

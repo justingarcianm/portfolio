@@ -10,19 +10,19 @@ function Contact() {
 			<div className="row">
 				<div className="col s4">
 					<a href="link.com">
-						<i class="fab fa-github-square"></i>
+						<i className="fab fa-github-square"></i>
 						<p>Github</p>
 					</a>
 				</div>
 				<div className="col s4">
 					<a href="link.com">
-						<i class="fas fa-file"></i>
+						<i className="fas fa-file"></i>
 						<p>Resume</p>
 					</a>
 				</div>
 				<div className="col s4">
 					<a href="link.com">
-						<i class="fas fa-envelope"></i>
+						<i className="fas fa-envelope"></i>
 						<p>justingarcianm@gmail.com</p>
 					</a>
 				</div>
