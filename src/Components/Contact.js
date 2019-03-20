@@ -3,9 +3,9 @@ import React from 'react';
 
 function Contact() {
 	return (
-		<section>
+		<section id="contact">
 			<h2>Let's Talk | Let's Learn | Let's Work</h2>
-			<p>Let's Start, please follow any of the links below</p>
+			<p>Let's start, please follow any of the links below</p>
 
 			<div className="row">
 				<div className="col s4">

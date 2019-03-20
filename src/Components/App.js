@@ -7,7 +7,7 @@ import Contact from './Contact'
 
 function App() {
   return (
-    <main>
+    <main id="home" className="center">
       <Nav />
       <Header />
       <Projects />

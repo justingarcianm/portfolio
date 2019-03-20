@@ -19,6 +19,10 @@ function Projects() {
 						consequatur inventore deserunt quia et, officiis dolore enim autem totam culpa eaque praesentium
 						suscipit, magnam iusto! Et nihil beatae numquam corrupti. Dicta illo necessitatibus quidem, aut
                         odit rerum, voluptatum laborum ad esse nisi dolores iste doloribus voluptas.</p>
+					<div className="project-links">
+						<a href="code" className="btn"><i class="fas fa-code"></i> Code</a>
+						<a href="demo" className="btn"><i class="fas fa-desktop"></i> Demo</a>
+					</div>
 				</div>
 			</div>
 			<div className="row">
@@ -31,6 +35,10 @@ function Projects() {
 						consequatur inventore deserunt quia et, officiis dolore enim autem totam culpa eaque praesentium
 						suscipit, magnam iusto! Et nihil beatae numquam corrupti. Dicta illo necessitatibus quidem, aut
                         odit rerum, voluptatum laborum ad esse nisi dolores iste doloribus voluptas.</p>
+					<div className="project-links">
+						<a href="code" className="btn"><i class="fas fa-code"></i> Code</a>
+						<a href="demo" className="btn"><i class="fas fa-desktop"></i> Demo</a>
+					</div>
 				</div>
 			</div>
 			<div className="row">
@@ -43,6 +51,10 @@ function Projects() {
 						consequatur inventore deserunt quia et, officiis dolore enim autem totam culpa eaque praesentium
 						suscipit, magnam iusto! Et nihil beatae numquam corrupti. Dicta illo necessitatibus quidem, aut
                         odit rerum, voluptatum laborum ad esse nisi dolores iste doloribus voluptas.</p>
+					<div className="project-links">
+						<a href="code" className="btn"><i class="fas fa-code"></i> Code</a>
+						<a href="demo" className="btn"><i class="fas fa-desktop"></i> Demo</a>
+					</div>
 				</div>
 			</div>
 			<div className="row">
