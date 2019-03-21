@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+
+
 .navbar-custom {
   position: fixed;
   left: 95%;
@@ -71,8 +73,24 @@ padding-top: 10vh;
 #projects h2{
 text-transform: uppercase;
 letter-spacing: 0.6em;
+padding-bottom: 150px;
 }
 
+.carousel .indicators .indicator-item {
+  background-color: #333D51;
+}
+.carousel .indicators .indicator-item.active {
+  background-color: #D3AC2B;
+}
+
+#projects .project-links{
+  padding: 125px;
+  margin: 20px;
+}
+
+#projects p {
+  text-align: left;
+}
 .btn {
   background-color: #D3AC2B;
   transition: 500ms ease;

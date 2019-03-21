@@ -1,19 +1,29 @@
 import React from 'react'
+import { Carousel } from 'react-materialize'
 import ArtistPage from './projects/ArtistPage'
+import LocalBistro from './projects/LocalBistro'
+import YelpCamp from './projects/YelpCamp'
 
 function Projects() {
+
+
 	return (
 		<section className="container" id="projects">
-			<div className="row">
+			<h2>Projects</h2>
 
-				<div className="col s12">
-					<h2>Projects</h2>
+			<Carousel options={{ fullWidth: true, indicators: true }}>
+				<div>
+					<ArtistPage />
 				</div>
+				<div>
+					<LocalBistro />
+				</div>
+				<div>
+					<YelpCamp />
+				</div>
+			</Carousel>
 
-			</div>
-
-			<ArtistPage />
-
+			<a href="somewhere" className="btn">See More</a>
 		</section>
 	)
 }

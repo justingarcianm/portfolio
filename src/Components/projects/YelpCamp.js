@@ -1,10 +1,10 @@
 import React from 'react'
 
-function ArtistPage() {
+function YelpCamp() {
 	return (
 		<div className="row">
 			<div className="col s12 m6">
-				<img src={require("./img/artistSite.JPG")} alt="project" className="responsive-img z-depth-2" />
+				<img src={require("./img/yelpCamp.JPG")} alt="project" className="responsive-img z-depth-2" />
 			</div>
 			<div className="col s12 m6">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates
@@ -25,4 +25,4 @@ function ArtistPage() {
 	)
 }
 
-export default ArtistPage
+export default YelpCamp
