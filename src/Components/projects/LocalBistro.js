@@ -9,11 +9,9 @@ function LocalBistro() {
 			<div className="col pull-l6 l6 m12">
 				<div className="divider"></div>
 				<h3>Local Bistro</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates
-					quaerat esse! Quo
-					consequatur inventore deserunt quia et, officiis dolore enim autem totam culpa eaque praesentium
-					suscipit, magnam iusto! Et nihil beatae numquam corrupti. Dicta illo necessitatibus quidem, aut
-                        odit rerum, voluptatum laborum ad esse nisi dolores iste doloribus voluptas.</p>
+				<p>I wanted to create a template for potential restuarants in my area. I often saw websites that were either bloated or confusing, so I created this app to streamline the important information and get the user to a table.</p>
+				<p>I used React JS, with a google API and simple datepicker API for a reservation form.</p>
+				<p>I previously created this project in html, css, and vanilla javascript; but I thought it would be a good excercise to make it a React app.</p>
 				<div className="project-links row">
 					<div className="col s6">
 						<a href="https://github.com/justingarcianm/localbistroreact" target="_blank" rel="noopener noreferrer" className="btn"><i className="fas fa-code"></i> Code</a>

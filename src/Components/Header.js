@@ -38,7 +38,7 @@ function Header() {
 
 
 				<div className="hidden-text">
-					<p>Since 2018 I have commited myself to teaching myself web development. I am front end focused using React, but I also have the skills to take on full stack with Node. Below are some of my projects and ways to get a hold of me.</p>
+					<p>Since 2018 I have commited myself to teaching myself web development. I am front-end focused using React, but I also have the skills to take on full stack with Node express and mongoose. I work hard to make sites smooth, responsive, and user friendly. This has pushed me to learn everyday. Thank you for visiting; below are some of my projects and ways to get a hold of me.</p>
 				</div>
 				<div className="show-arrow">
 					<i className="material-icons" onClick={togglehiddenText}>expand_more</i>

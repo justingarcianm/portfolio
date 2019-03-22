@@ -9,11 +9,9 @@ function ArtistPage() {
 			<div className="col m12 l6">
 				<div className="divider"></div>
 				<h3>Artist Site</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates
-					quaerat esse! Quo
-					consequatur inventore deserunt quia et, officiis dolore enim autem totam culpa eaque praesentium
-					suscipit, magnam iusto! Et nihil beatae numquam corrupti. Dicta illo necessitatibus quidem, aut
-                        odit rerum, voluptatum laborum ad esse nisi dolores iste doloribus voluptas.</p>
+				<p>An illustrator I know started to branch out into freelancing. I built this site for his work to be found in one place.</p>
+				<p>This project consists of html, css + bootstrap, and vanilla javascript. I used a facebook API to link his page on the contact page.</p>
+				<p>I often sent updates to the artist to get ideas on what his thoughts were on design and features. This pushed me to better grasp the logic and styling that eventually made this project what it is.</p>
 				<div className="project-links row">
 					<div className="col s6">
 						<a href="https://github.com/justingarcianm/aaronart.github.io" target="_blank" rel="noopener noreferrer" className="btn"><i className="fas fa-code"></i> Code</a>
