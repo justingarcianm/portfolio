@@ -1,7 +1,7 @@
 import React from 'react'
 import ArtistPage from './projects/ArtistPage'
 import LocalBistro from './projects/LocalBistro'
-import YelpCamp from './projects/YelpCamp'
+import BlogSite from './projects/BlogSite'
 
 function Projects() {
 
@@ -21,7 +21,7 @@ function Projects() {
 			<br />
 			<LocalBistro />
 			<br />
-			<YelpCamp />
+			<BlogSite />
 			<br />
 			<a href="https://github.com/justingarcianm" target="_blank" rel="noopener noreferrer" className="btn">See More</a>
 		</section>
