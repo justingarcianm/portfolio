@@ -19,8 +19,8 @@ function Header() {
 	}
 
 	return (
-		<header >
-			<div className="container">
+		<header>
+			<section className="container">
 				<h1>Hi, I'm Justin</h1>
 
 				<p className="accent">A web developer</p>
@@ -31,7 +31,8 @@ function Header() {
 				<div className="hidden-text">
 					<p>Since 2018 I have commited myself to teaching myself web development. I am front end focused using React, but I also have the skills to take on full stack with Node. Below are some of my projects and ways to get a hold of me.</p>
 				</div>
-			</div>
+
+			</section>
 		</header>
 	)
 }

@@ -6,8 +6,11 @@ import Projects from './Projects'
 import Contact from './Contact'
 
 function App() {
+  const navFunction = (event) => {
+    console.log(event.target)
+  }
   return (
-    <main id="home" className="center">
+    <main id="home" className="center" onScroll={navFunction}>
       <Nav />
       <Header />
       <Projects />
