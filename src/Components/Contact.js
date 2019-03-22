@@ -19,7 +19,7 @@ function Contact() {
 
 				<div className="row">
 					<div className="col s4">
-						<a href="link.com">
+						<a href="https://github.com/justingarcianm" target="_blank" rel="noopener noreferrer">
 							<i className="fab fa-github-square"></i>
 							<p>Github</p>
 						</a>
@@ -31,7 +31,7 @@ function Contact() {
 						</a>
 					</div>
 					<div className="col s4">
-						<a href="link.com">
+						<a href="mailto:justingarcianm@gmail.com?subject=I saw your portfolio">
 							<i className="fas fa-envelope"></i>
 							<p>Email</p>
 						</a>

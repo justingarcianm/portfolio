@@ -16,10 +16,10 @@ function LocalBistro() {
                         odit rerum, voluptatum laborum ad esse nisi dolores iste doloribus voluptas.</p>
 				<div className="project-links row">
 					<div className="col s6">
-						<a href="code" className="btn"><i className="fas fa-code"></i> Code</a>
+						<a href="https://github.com/justingarcianm/localbistroreact" target="_blank" rel="noopener noreferrer" className="btn"><i className="fas fa-code"></i> Code</a>
 					</div>
 					<div className="col s6">
-						<a href="demo" className="btn"><i className="fas fa-desktop"></i> Demo</a>
+						<a href="https://justingarcianm.github.io/localbistroreact/" target="_blank" rel="noopener noreferrer" className="btn"><i className="fas fa-desktop"></i> Demo</a>
 					</div>
 				</div>
 			</div>

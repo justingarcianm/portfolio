@@ -23,7 +23,7 @@ function Projects() {
 			<br />
 			<YelpCamp />
 			<br />
-			<a href="somewhere" className="btn">See More</a>
+			<a href="https://github.com/justingarcianm" target="_blank" rel="noopener noreferrer" className="btn">See More</a>
 		</section>
 	)
 }
