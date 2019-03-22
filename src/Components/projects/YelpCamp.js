@@ -4,22 +4,20 @@ function YelpCamp() {
 	return (
 		<div className="row">
 			<div className="col m12 l6">
-				<img src={require("./img/yelpCamp.JPG")} alt="project" className="responsive-img z-depth-2" />
+				<img src={require("./img/blogSite.JPG")} alt="project" className="responsive-img z-depth-2" />
 			</div>
 			<div className="col m12 l6">
 				<div className="divider"></div>
-				<h3>YelpCamp</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates
-					quaerat esse! Quo
-					consequatur inventore deserunt quia et, officiis dolore enim autem totam culpa eaque praesentium
-					suscipit, magnam iusto! Et nihil beatae numquam corrupti. Dicta illo necessitatibus quidem, aut
-                        odit rerum, voluptatum laborum ad esse nisi dolores iste doloribus voluptas.</p>
+				<h3>Blog Site</h3>
+				<p>Star Wars: Galaxy of Heroes has made love mobile games. Being a huge Star Wars fan, it was a no brainer to create a blog site for the game. Although, there are already forums dedicated to this type of content; I wanted to cerate a clean look with more opportunities to find what you need if you play the game as seroiusly as I do.</p>
+				<p>This site uses Node JS with Express to create mulptiplle pages that uses the CRUD method to create, edit, and delete blog posts. I used Materialize CSS and vanilla javascript within ejs. A Twitter API is used to keep up to date with current game features.</p>
+				<p>I took this project from a completed project I created from a online course, I knew it would be a great challenge to take that knowledge into a new enviornment and I feel like it paid off in valuable experience.</p>
 				<div className="project-links row">
 					<div className="col s6">
-						<a href="https://github.com/justingarcianm/YelpCamp" target="_blank" rel="noopener noreferrer" className="btn"><i className="fas fa-code"></i> Code</a>
+						<a href="https://github.com/justingarcianm/blogSite" target="_blank" rel="noopener noreferrer" className="btn"><i className="fas fa-code"></i> Code</a>
 					</div>
 					<div className="col s6">
-						<a href="https://intense-castle-67500.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn"><i className="fas fa-desktop"></i> Demo</a>
+						<a href="https://whispering-earth-69776.herokuapp.com/blog" target="_blank" rel="noopener noreferrer" className="btn"><i className="fas fa-desktop"></i> Demo</a>
 					</div>
 				</div>
 			</div>
