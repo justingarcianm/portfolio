@@ -31,11 +31,6 @@ html {
   background-color: #222;
 }
 
-
-
-
-
-
 header, #contact {
   height: 100vh;
 }
@@ -56,37 +51,29 @@ header .show-arrow i{
 }
 
 header .show-arrow {
-  transition: 1s ease;
+  transition: 500ms ease;
 }
 header .toggle-arrow {
-  margin-top: 100px;
+  margin-top: 50px;
   transform: rotate(180deg) !important;
   color: #D3AC2B;
 }
 
 header .hidden-text {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  left: 25%;
-  transform: translate(0, -50%);
+  position: relative;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   opacity: 0;
-  transition: 1s ease;
+  transition: 500ms ease;
   z-index: -1;
 }
 
-
 header .toggle-text {
-  top: 60% !important;
+  margin-top: 50px;
 }
-
-
-
-
-
-
-
-
 
 #projects {
 padding-top: 10vh;
@@ -109,6 +96,7 @@ font-size: 2.5em;
 
 #projects p {
   text-align: left;
+  padding: 20px;
 }
 .btn {
   background-color: #D3AC2B;
@@ -136,9 +124,4 @@ font-size: 2.5em;
 }
 #contact i:hover, #contact a:hover {
   color: #333D51;
-}
-
-
-@media (max-width:500px){
-  
 }

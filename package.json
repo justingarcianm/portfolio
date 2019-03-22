@@ -5,7 +5,6 @@
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-native-media-queries": "^0.3.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
