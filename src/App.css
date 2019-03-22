@@ -27,8 +27,7 @@ html {
 .navbar-custom i:hover {
   background-color: #222;
 }
-
-.navbar-custom .active {
+.active {
   background-color: #222;
 }
 

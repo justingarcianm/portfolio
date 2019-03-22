@@ -21,9 +21,17 @@ function Header() {
 	}
 
 
+	const navToggle = () => {
+		const navBar = document.querySelectorAll(".navbar-custom ul li i")
+		for (let i = 0; i < navBar.length; i++) {
+			navBar[i].classList.remove("active")
+			navBar[0].classList.add("active")
+		}
+	}
+
 	return (
 		<header>
-			<section className="container">
+			<section className="container" id="home" onMouseOver={navToggle}>
 				<h1>Hi, I'm Justin</h1>
 
 				<p className="accent">A web developer</p>
