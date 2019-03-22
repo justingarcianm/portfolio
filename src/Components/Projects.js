@@ -12,11 +12,11 @@ function Projects() {
 			<h2 className="flow-text">Projects</h2>
 
 			<ArtistPage />
-
+			<br />
 			<LocalBistro />
-
+			<br />
 			<YelpCamp />
-
+			<br />
 			<a href="somewhere" className="btn">See More</a>
 		</section>
 	)

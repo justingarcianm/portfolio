@@ -76,15 +76,6 @@ header .hidden-text {
   z-index: -1;
 }
 
-@media (max-width: 710px){
-
-  header .hidden-text {
-    position: absolute;
-  width: 50%;
-    top: 60%;
-    left: 25%;
-  }
-}
 
 header .toggle-text {
   top: 60% !important;

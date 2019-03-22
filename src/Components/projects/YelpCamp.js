@@ -3,10 +3,12 @@ import React from 'react'
 function YelpCamp() {
 	return (
 		<div className="row">
-			<div className="col s12 m6">
+			<div className="col m12 l6">
 				<img src={require("./img/yelpCamp.JPG")} alt="project" className="responsive-img z-depth-2" />
 			</div>
-			<div className="col s12 m6">
+			<div className="col m12 l6">
+				<div className="divider"></div>
+				<h3>YelpCamp</h3>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates
 					quaerat esse! Quo
 					consequatur inventore deserunt quia et, officiis dolore enim autem totam culpa eaque praesentium

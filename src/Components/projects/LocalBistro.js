@@ -3,10 +3,12 @@ import React from 'react'
 function LocalBistro() {
 	return (
 		<div className="row">
-			<div className="col s12 m6">
+			<div className="col push-l6 l6 m12">
 				<img src={require("./img/localBistro.JPG")} alt="project" className="responsive-img z-depth-2" />
 			</div>
-			<div className="col s12 m6">
+			<div className="col pull-l6 l6 m12">
+				<div className="divider"></div>
+				<h3>Local Bistro</h3>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates
 					quaerat esse! Quo
 					consequatur inventore deserunt quia et, officiis dolore enim autem totam culpa eaque praesentium
@@ -21,6 +23,7 @@ function LocalBistro() {
 					</div>
 				</div>
 			</div>
+
 		</div>
 	)
 }

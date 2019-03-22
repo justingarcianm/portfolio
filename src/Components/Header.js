@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 
 function Header() {
@@ -20,6 +20,7 @@ function Header() {
 		}
 	}
 
+
 	return (
 		<header>
 			<section className="container">
@@ -38,4 +39,5 @@ function Header() {
 		</header>
 	)
 }
+
 export default Header;
