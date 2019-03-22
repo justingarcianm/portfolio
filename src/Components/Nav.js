@@ -7,7 +7,7 @@ function Nav() {
 			<ul>
 				<li>
 					<a href="#home">
-						<i className="material-icons">lens</i>
+						<i className="material-icons">panorama_fish_eye</i>
 					</a>
 				</li>
 				<li>

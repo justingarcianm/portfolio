@@ -21,11 +21,15 @@ html {
 .navbar-custom i {
   border-radius: 100%;
   transition: 500ms ease;
-  color: black;
+  color: #222;
 }
 
 .navbar-custom i:hover {
-  background-color: black;
+  background-color: #222;
+}
+
+.navbar-custom .active {
+  background-color: #222;
 }
 
 
@@ -33,7 +37,7 @@ html {
 
 
 
-header, #projects, #contact {
+header, #contact {
   height: 100vh;
 }
 
@@ -48,7 +52,7 @@ header .accent {
 
 header .show-arrow i{
   font-size: 3.5em;
-  z-index: 2;
+  z-index: 1;
   cursor: pointer;
 }
 
@@ -66,9 +70,22 @@ header .hidden-text {
   width: 50%;
   top: 50%;
   left: 25%;
+  transform: translate(0, -50%);
   opacity: 0;
   transition: 1s ease;
+  z-index: -1;
 }
+
+@media (max-width: 710px){
+
+  header .hidden-text {
+    position: absolute;
+  width: 50%;
+    top: 60%;
+    left: 25%;
+  }
+}
+
 header .toggle-text {
   top: 60% !important;
 }
@@ -83,12 +100,14 @@ header .toggle-text {
 
 #projects {
 padding-top: 10vh;
+padding-bottom: 10vh;
 }
 
 #projects h2{
 text-transform: uppercase;
 letter-spacing: 0.6em;
 padding-bottom: 150px;
+font-size: 2.5em;
 }
 
 .carousel .indicators .indicator-item {
@@ -96,11 +115,6 @@ padding-bottom: 150px;
 }
 .carousel .indicators .indicator-item.active {
   background-color: #D3AC2B;
-}
-
-#projects .project-links{
-  padding: 125px;
-  margin: 20px;
 }
 
 #projects p {
@@ -132,4 +146,9 @@ padding-bottom: 150px;
 }
 #contact i:hover, #contact a:hover {
   color: #333D51;
+}
+
+
+@media (max-width:500px){
+  
 }

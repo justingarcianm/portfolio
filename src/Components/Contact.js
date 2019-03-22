@@ -24,7 +24,7 @@ function Contact() {
 					<div className="col s4">
 						<a href="link.com">
 							<i className="fas fa-envelope"></i>
-							<p>justingarcianm@gmail.com</p>
+							<p>Email</p>
 						</a>
 					</div>
 				</div>

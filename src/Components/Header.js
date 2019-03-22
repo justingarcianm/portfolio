@@ -13,8 +13,10 @@ function Header() {
 		// toggles opacity of text between 0 and 1 depending if the toggle-text is active
 		if (hiddenText.classList.contains("toggle-text")) {
 			hiddenText.style.opacity = "1"
+			hiddenText.style.zIndex = "1"
 		} else {
 			hiddenText.style.opacity = "0"
+			hiddenText.style.zIndex = "-1"
 		}
 	}
 
