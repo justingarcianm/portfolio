@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "3d6a2d9532f8d911b3c1259748eb527c",
-    "url": "/portfolio/static/media/web_resume_indica_labs.3d6a2d95.pdf"
+    "revision": "2f166775588865171c822d6521bb586b",
+    "url": "/portfolio/static/media/web_resume_indica_labs.2f166775.pdf"
   },
   {
     "revision": "dd981f64026bafcf60fe65fa74df03a5",
@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "cca49c8207488b4d2a9c",
-    "url": "/portfolio/static/js/main.b4196686.chunk.js"
+    "revision": "cb89c5b1690c14660ced",
+    "url": "/portfolio/static/js/main.84edc48e.chunk.js"
   },
   {
     "revision": "4231adcdc479f41c33cb",
     "url": "/portfolio/static/js/2.4947ba8c.chunk.js"
   },
   {
-    "revision": "cca49c8207488b4d2a9c",
+    "revision": "cb89c5b1690c14660ced",
     "url": "/portfolio/static/css/main.d4f8bfbc.chunk.css"
   },
   {
-    "revision": "58fe29856459947bb7db3a3504ada2ff",
+    "revision": "500cd7cc7dd9c721e484826d881dba40",
     "url": "/portfolio/index.html"
   }
 ];
