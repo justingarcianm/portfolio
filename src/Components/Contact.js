@@ -25,7 +25,7 @@ function Contact() {
 						</a>
 					</div>
 					<div className="col s4">
-						<a href="link.com">
+						<a href={require("./projects/img/web_resume_indica_labs.pdf")}>
 							<i className="fas fa-file"></i>
 							<p>Resume</p>
 						</a>
