@@ -11,7 +11,7 @@ function Nav() {
 		}
 	}
 	return (
-		<section className="navbar-custom">
+		<section className="navbar-custom d-none d-sm-block">
 			<ul>
 				<li>
 					<a href="#home">

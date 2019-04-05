@@ -9,7 +9,7 @@ function LocalBistro() {
 			<div className="col pull-l6 l6 m12">
 				<div className="divider"></div>
 				<h3>Local Bistro</h3>
-				<p>I wanted to create a template for potential restuarants in my area. I often saw websites that were either bloated or confusing, so I created this app to streamline the important information and get the user to a table.</p>
+				<p>I wanted to create a template for potential restuarants in my area. I often came across websites that were either bloated or confusing, so I created this app as a template to streamline the important information for restaurants  and get the user to a table.</p>
 				<p>I used React JS, with a google API and simple datepicker API for a reservation form.</p>
 				<p>I previously created this project in html, css, and vanilla javascript; but I thought it would be a good excercise to make it a React app.</p>
 				<div className="project-links row">

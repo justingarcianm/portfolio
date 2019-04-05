@@ -9,8 +9,8 @@ function ArtistPage() {
 			<div className="col m12 l6">
 				<div className="divider"></div>
 				<h3>Artist Site</h3>
-				<p>An illustrator I know started to branch out into freelancing. I built this site for his work to be found in one place.</p>
-				<p>This project consists of html, css + bootstrap, and vanilla javascript. I used a facebook API to link his page on the contact page.</p>
+				<p>An illustrator I know started to branch out into freelancing. I built this site to showcase some of his work and use this website as a hub to connect to all of his work.</p>
+				<p>This project consists of html5, css + bootstrap, and vanilla javascript. I used a facebook API to link his page on the contact page.</p>
 				<p>I often sent updates to the artist to get ideas on what his thoughts were on design and features. This pushed me to better grasp the logic and styling that eventually made this project what it is.</p>
 				<div className="project-links row">
 					<div className="col s6">
