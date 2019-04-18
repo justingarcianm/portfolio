@@ -11,8 +11,8 @@ function Nav() {
 		}
 	}
 	return (
-		<section className="navbar-custom d-none d-sm-block">
-			<ul>
+		<section className="navbar-custom ">
+			<ul className="d-sm-none d-md-block">
 				<li>
 					<a href="#home">
 						<i className="material-icons" onClick={navToggle}>panorama_fish_eye</i>

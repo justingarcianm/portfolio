@@ -23,6 +23,8 @@ function Projects() {
 			<br />
 			<BlogSite />
 			<br />
+			<div className="divider"></div>
+			<br />
 			<a href="https://github.com/justingarcianm" target="_blank" rel="noopener noreferrer" className="btn">See More</a>
 		</section>
 	)

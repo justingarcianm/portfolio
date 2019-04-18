@@ -36,8 +36,10 @@ header, #contact {
 }
 
 header {
-  padding-top: 40vh;
   background-color: #CBD0D8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 header .accent {
   color: #D3AC2B;
@@ -54,20 +56,20 @@ header .show-arrow {
   transition: 500ms ease;
 }
 header .toggle-arrow {
-  margin-top: 50px;
   transform: rotate(180deg) !important;
   color: #D3AC2B;
+  z-index: 2;
 }
 
 header .hidden-text {
-  position: relative;
+  position: absolute;
   width: 70%;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   opacity: 0;
-  transition: 500ms ease;
+  transition: 1s ease;
   z-index: -1;
 }
 
@@ -108,7 +110,10 @@ font-size: 2.5em;
 
 #contact {
   background-color: #D3AC2B;
-  padding-top: 25vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
   color: #F4F3EA;
 }
 #contact i {
