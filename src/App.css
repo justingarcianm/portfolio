@@ -123,3 +123,9 @@ font-size: 2.5em;
 #contact i:hover, #contact a:hover {
   color: #333D51;
 }
+
+@media (max-width: 600px ){
+  .hide-small {
+    display: none;
+  }
+}

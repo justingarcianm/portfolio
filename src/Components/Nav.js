@@ -1,8 +1,5 @@
 import React from 'react';
 
-const mobile = {
-
-}
 
 function Nav() {
 
@@ -14,7 +11,7 @@ function Nav() {
 		}
 	}
 	return (
-		<section className="navbar-custom ">
+		<section className="navbar-custom hide-small">
 			<ul>
 				<li>
 					<a href="#home">
