@@ -1,5 +1,8 @@
 import React from 'react';
 
+const mobile = {
+
+}
 
 function Nav() {
 
@@ -12,7 +15,7 @@ function Nav() {
 	}
 	return (
 		<section className="navbar-custom ">
-			<ul className="d-sm-none d-md-block">
+			<ul>
 				<li>
 					<a href="#home">
 						<i className="material-icons" onClick={navToggle}>panorama_fish_eye</i>
